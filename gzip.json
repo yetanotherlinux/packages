@@ -1,0 +1,26 @@
+{
+	"version": "1.10",
+	"url": "https://ftpmirror.gnu.org/gnu/gzip/gzip-1.10.tar.xz",
+	"prepare": [
+	],
+	"build": [
+		"../src/configure --prefix=/usr",
+		"make"
+	],
+	"test": [
+	],
+	"install": [
+		"make install"
+	],
+	"dependencies": {
+		"build": [
+			"gcc",
+			"make"
+		],
+		"startup": [
+		],
+		"runtime": [
+		]
+	}
+}
+

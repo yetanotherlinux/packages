@@ -1,0 +1,22 @@
+{
+        "version": "19",
+        "url": "https://github.com/yetanotherlinux/empty/archive/master.tar.gz",
+        "prepare": [
+        ],
+        "build": [
+        ],
+        "test": [
+        ],
+        "install": [
+        ],
+        "dependencies": {
+                "build": [
+                ],
+                "startup": [
+                        "@core",
+			"gcc"
+                ],
+                "runtime": [
+                ]
+        }
+}

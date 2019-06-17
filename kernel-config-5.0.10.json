@@ -1,0 +1,22 @@
+{
+	"version": "5.0.10",
+	"url": "https://github.com/yetanotherlinux/kernel-config/archive/5.0.10.tar.gz",
+	"prepare": [
+	],
+	"build": [
+	],
+	"test": [
+	],
+	"install": [
+		"cp ../src/$(uname -m) /boot/config-5.0.10"
+	],
+	"dependencies": {
+		"build": [
+		],
+		"startup": [
+		],
+		"runtime": [
+		]
+	}
+}
+

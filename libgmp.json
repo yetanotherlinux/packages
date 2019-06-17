@@ -1,0 +1,26 @@
+{
+	"version": "6.1.2",
+	"url": "https://ftpmirror.gnu.org/gnu/gmp/gmp-6.1.2.tar.xz",
+	"prepare": [
+	],
+	"build": [
+		"../src/configure --prefix=/usr --enable-cxx --disable-static",
+		"make"
+	],
+	"test": [
+	],
+	"install": [
+		"make install"
+	],
+	"dependencies": {
+		"build": [
+			"gcc",
+			"make"
+		],
+		"startup": [
+		],
+		"runtime": [
+		]
+	}
+}
+

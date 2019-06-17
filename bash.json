@@ -1,0 +1,26 @@
+{
+	"version": "5.0",
+	"url": "https://ftpmirror.gnu.org/gnu/bash/bash-5.0.tar.gz",
+	"prepare": [
+	],
+	"build": [
+		"../src/configure --prefix=/usr",
+		"make"
+	],
+	"test": [
+	],
+	"install": [
+		"make install"
+	],
+	"dependencies": {
+		"build": [
+			"gcc",
+			"make"
+		],
+		"startup": [
+		],
+		"runtime": [
+		]
+	}
+}
+

@@ -1,0 +1,26 @@
+{
+	"version": "3.14.5",
+	"url": "https://github.com/Kitware/CMake/releases/download/v3.14.5/cmake-3.14.5.tar.gz",
+	"prepare": [
+	],
+	"build": [
+		"../src/configure --prefix=/usr",
+		"make"
+	],
+	"test": [
+	],
+	"install": [
+		"make install"
+	],
+	"dependencies": {
+		"build": [
+			"gcc",
+			"make"
+		],
+		"startup": [
+		],
+		"runtime": [
+		]
+	}
+}
+

@@ -1,0 +1,28 @@
+{
+	"version": "1.0.6",
+	"url": "https://sourceware.org/pub/bzip2/bzip2-1.0.6.tar.gz",
+	"prepare": [
+		"cp -a ../src/. ."
+	],
+	"build": [
+		"make -f Makefile-libbz2_so"
+	],
+	"test": [
+	],
+	"install": [
+		"make install PREFIX=/usr",
+		"cp -av libbz2.so.* /usr/lib/",
+		"ln -sf libbz2.so.1.0 /usr/lib/libbz2.so"
+	],
+	"dependencies": {
+		"build": [
+			"gcc",
+			"make"
+		],
+		"startup": [
+		],
+		"runtime": [
+		]
+	}
+}
+

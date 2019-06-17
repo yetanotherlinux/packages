@@ -1,0 +1,26 @@
+{
+	"version": "1.19",
+	"url": "https://download.savannah.gnu.org/releases/lzip/lzip-1.19.tar.gz",
+	"prepare": [
+	],
+	"build": [
+		"../src/configure --prefix=/usr",
+		"make"
+	],
+	"test": [
+	],
+	"install": [
+		"make install"
+	],
+	"dependencies": {
+		"build": [
+			"gcc",
+			"make"
+		],
+		"startup": [
+		],
+		"runtime": [
+		]
+	}
+}
+

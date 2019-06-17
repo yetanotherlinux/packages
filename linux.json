@@ -1,0 +1,30 @@
+{
+	"version": "5.0.10",
+	"url": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.0.10.tar.xz",
+	"prepare": [
+		"cp -a ../src/. .",
+		"cp /boot/config-5.0.10 .config"
+	],
+	"build": [
+		"make"
+	],
+	"test": [
+	],
+	"install": [
+		"make install",
+		"make headers_install",
+		"make modules_install"
+	],
+	"dependencies": {
+		"build": [
+			"bc",
+			"gcc",
+			"kernel-config-5.0.10",
+			"make"
+		],
+		"startup": [
+		],
+		"runtime": [
+		]
+	}
+}

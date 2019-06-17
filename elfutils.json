@@ -1,0 +1,26 @@
+{
+	"version": "0.176",
+	"url": "https://sourceware.org/elfutils/ftp/0.176/elfutils-0.176.tar.bz2",
+	"prepare": [
+	],
+	"build": [
+		"../src/configure --prefix=/usr",
+		"make"
+	],
+	"test": [
+	],
+	"install": [
+		"make install"
+	],
+	"dependencies": {
+		"build": [
+			"gcc",
+			"make"
+		],
+		"startup": [
+		],
+		"runtime": [
+		]
+	}
+}
+

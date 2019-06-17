@@ -1,0 +1,28 @@
+{
+	"version": "1.1.0k",
+	"url": "https://www.openssl.org/source/openssl-1.1.0k.tar.gz",
+	"prepare": [
+	],
+	"build": [
+		"cp -a ../src/. .",
+		"./config shared --prefix=/usr --openssldir=/etc/ssl",
+		"make"
+	],
+	"test": [
+	],
+	"install": [
+		"make install"
+	],
+	"dependencies": {
+		"build": [
+			"gcc",
+			"make"
+		],
+		"startup": [
+			"zlib"
+		],
+		"runtime": [
+		]
+	}
+}
+

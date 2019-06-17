@@ -1,0 +1,27 @@
+{
+	"version": "4.2.1",
+	"url": "https://ftpmirror.gnu.org/gnu/make/make-4.2.1.tar.gz",
+	"prepare": [
+		"cp -a ../src/. .",
+		"sed -i '211,217 d; 219,229 d; 232 d' glob/glob.c"
+	],
+	"build": [
+		"./configure --prefix=/usr",
+		"make"
+	],
+	"test": [
+	],
+	"install": [
+		"make install"
+	],
+	"dependencies": {
+		"build": [
+			"gcc"
+		],
+		"startup": [
+		],
+		"runtime": [
+		]
+	}
+}
+

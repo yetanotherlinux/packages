@@ -1,0 +1,27 @@
+{
+	"version": "9.1.0",
+	"url": "https://ftpmirror.gnu.org/gnu/gcc/gcc-9.1.0/gcc-9.1.0.tar.xz",
+	"prepare": [
+	],
+	"build": [
+		"../src/configure --prefix=/usr --enable-languages=c,c++ --disable-multilib",
+		"make -j ${cores}"
+	],
+	"test": [
+	],
+	"install": [
+		"make install"
+	],
+	"dependencies": {
+		"build": [
+			"make"
+		],
+		"startup": [
+			"libgmp",
+			"libmpc"
+		],
+		"runtime": [
+			"elfutils",
+		]
+	}
+}

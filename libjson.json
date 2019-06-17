@@ -1,0 +1,27 @@
+{
+	"version": "19",
+	"url": "https://github.com/yetanotherlinux/json/archive/master.tar.gz",
+	"prepare": [
+	],
+	"build": [
+		"cmake -DCMAKE_INSTALL_PREFIX=/usr ../src",
+		"make"
+	],
+	"test": [
+	],
+	"install": [
+		"make install"
+	],
+	"dependencies": {
+		"build": [
+			"cmake",
+			"gcc",
+			"make"
+		],
+		"startup": [
+		],
+		"runtime": [
+		]
+	}
+}
+

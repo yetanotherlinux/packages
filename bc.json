@@ -1,0 +1,27 @@
+{
+	"version": "1.07.1",
+	"url": "https://ftpmirror.gnu.org/gnu/bc/bc-1.07.1.tar.gz",
+	"prepare": [
+		"cp -a ../src/. ."
+	],
+	"build": [
+		"./configure --prefix=/usr --with-readline",
+		"make"
+	],
+	"test": [
+	],
+	"install": [
+		"make install"
+	],
+	"dependencies": {
+		"build": [
+			"gcc",
+			"make"
+		],
+		"startup": [
+			"readline"
+		],
+		"runtime": [
+		]
+	}
+}
