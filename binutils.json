@@ -4,7 +4,7 @@
 	"prepare": [
 	],
 	"build": [
-		"../src/configure --prefix=/usr --enable-gold --enable-ld=default --enable-plugins --disable-doc",
+		"../src/configure --prefix=/usr --enable-gold --enable-ld=default --enable-plugins",
 		"make tooldir=/usr"
 	],
 	"test": [
@@ -15,7 +15,8 @@
 	"dependencies": {
 		"build": [
 			"gcc",
-			"make"
+			"make",
+			"texinfo"
 		],
 		"startup": [
 		],
