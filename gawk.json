@@ -1,0 +1,26 @@
+{
+	"version": "4.2.0",
+	"url": "https://ftpmirror.gnu.org/gnu/gawk/gawk-4.2.0.tar.xz",
+	"prepare": [
+	],
+	"build": [
+		"../src/configure --prefix=/usr",
+		"make"
+	],
+	"test": [
+	],
+	"install": [
+		"make install"
+	],
+	"dependencies": {
+		"build": [
+			"gcc",
+			"make"
+		],
+		"startup": [
+		],
+		"runtime": [
+		]
+	}
+}
+
