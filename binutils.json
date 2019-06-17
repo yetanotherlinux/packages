@@ -4,7 +4,7 @@
 	"prepare": [
 	],
 	"build": [
-		"../src/configure --prefix=/usr --enable-gold --enable-ld=default --enable-plugins",
+		"../src/configure --prefix=/usr --enable-gold --enable-ld=default --enable-plugins --disable-doc",
 		"make tooldir=/usr"
 	],
 	"test": [
