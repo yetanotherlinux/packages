@@ -18,6 +18,7 @@
 	"dependencies": {
 		"build": [
 			"bc",
+			"elfutils",
 			"gcc",
 			"kernel-config-5.0.10",
 			"make"

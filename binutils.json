@@ -1,0 +1,26 @@
+{
+	"version": "2.32",
+	"url": "https://ftpmirror.gnu.org/gnu/binutils/binutils-2.32.tar.xz",
+	"prepare": [
+	],
+	"build": [
+		"../src/configure --prefix=/usr --enable-gold --enable-ld=default --enable-plugins",
+		"make tooldir=/usr"
+	],
+	"test": [
+	],
+	"install": [
+		"make tooldir=/usr install"
+	],
+	"dependencies": {
+		"build": [
+			"gcc",
+			"make"
+		],
+		"startup": [
+		],
+		"runtime": [
+		]
+	}
+}
+
