@@ -1,0 +1,28 @@
+{
+	"version": "3.3.2",
+	"url": "https://ftpmirror.gnu.org/gnu/bison/bison-3.3.2.tar.xz",
+	"prepare": [
+	],
+	"build": [
+		"../src/configure --prefix=/usr",
+		"make"
+	],
+	"test": [
+	],
+	"install": [
+		"make install"
+	],
+	"dependencies": {
+		"build": [
+			"gcc",
+			"help2man",
+			"make",
+			"m4"
+		],
+		"startup": [
+		],
+		"runtime": [
+		]
+	}
+}
+
