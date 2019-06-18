@@ -1,0 +1,28 @@
+{
+	"version": "3.7.3",
+	"url": "https://www.python.org/ftp/python/3.7.3/Python-3.7.3.tar.xz",
+	"prepare": [
+	],
+	"build": [
+		"../src/configure --prefix=/usr --enable-shared",
+		"make"
+	],
+	"test": [
+	],
+	"install": [
+		"make install"
+	],
+	"dependencies": {
+		"build": [
+			"gcc",
+			"libffi",
+			"make",
+			"zlib"
+		],
+		"startup": [
+		],
+		"runtime": [
+		]
+	}
+}
+
