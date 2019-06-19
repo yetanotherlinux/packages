@@ -1,0 +1,24 @@
+{
+	"version": "19",
+	"url": "https://github.com/yetanotherlinux/ca/archive/master.tar.gz",
+	"prepare": [
+	],
+	"build": [
+		"find ../src/ -name '*.crt' -exec openssl x509 -inform der -in {} \\; > bundle.pem"
+	],
+	"test": [
+	],
+	"install": [
+		"cp bundle.pem /etc/ssl/certs/ca-certificates.crt"
+	],
+	"dependencies": {
+		"build": [
+			"openssl"
+		],
+		"startup": [
+		],
+		"runtime": [
+		]
+	}
+}
+
