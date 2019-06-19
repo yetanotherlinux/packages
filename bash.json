@@ -2,7 +2,6 @@
 	"version": "5.0",
 	"url": "https://ftpmirror.gnu.org/gnu/bash/bash-5.0.tar.gz",
 	"prepare": [
-		"chmod a+r ../src/lib/glob/smatch.c"
 	],
 	"build": [
 		"../src/configure --prefix=/usr",
