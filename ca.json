@@ -9,7 +9,7 @@
 	"test": [
 	],
 	"install": [
-		"cp bundle.pem /etc/ssl/certs/ca-certificates.crt"
+		"cp bundle.pem /usr/etc/ssl/certs/ca-certificates.crt"
 	],
 	"dependencies": {
 		"build": [

@@ -5,7 +5,7 @@
 	],
 	"build": [
 		"cp -a ../src/. .",
-		"./config shared --prefix=/usr --openssldir=/etc/ssl",
+		"./config shared --prefix=/usr --openssldir=/usr/etc/ssl",
 		"make"
 	],
 	"test": [

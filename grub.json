@@ -4,7 +4,7 @@
 	"prepare": [
 	],
 	"build": [
-		"../src/configure --prefix=/usr --sysconfdir=/etc",
+		"../src/configure --prefix=/usr",
 		"make"
 	],
 	"test": [
