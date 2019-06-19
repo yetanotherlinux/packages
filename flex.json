@@ -1,0 +1,28 @@
+{
+	"version": "2.6.3",
+	"url": "https://github.com/westes/flex/archive/v2.6.3.tar.gz",
+	"prepare": [
+	],
+	"build": [
+		"../src/configure --prefix=/usr",
+		"make"
+	],
+	"test": [
+	],
+	"install": [
+		"make install"
+	],
+	"dependencies": {
+		"build": [
+			"bison",
+			"gcc",
+			"libtool",
+			"make"
+		],
+		"startup": [
+		],
+		"runtime": [
+		]
+	}
+}
+
