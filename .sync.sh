@@ -15,4 +15,3 @@ do
 done
 
 git checkout master
-git push

@@ -4,7 +4,7 @@
 	"prepare": [
 	],
 	"build": [
-		"../src/configure --prefix=/usr",
+		"../src/configure --prefix=/usr --disable-werror",
 		"make"
 	],
 	"test": [
