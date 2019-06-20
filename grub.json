@@ -1,10 +1,10 @@
 {
 	"version": "2.02",
-	"url": "https://ftpmirror.gnu.org/gnu/grub/grub-2.02.tar.xz",
+	"url": "https://github.com/yetanotherlinux/patched/raw/master/grub-2.02.tar.gz",
 	"prepare": [
 	],
 	"build": [
-		"../src/configure --prefix=/usr --disable-werror",
+		"../src/configure --prefix=/usr",
 		"make"
 	],
 	"test": [
