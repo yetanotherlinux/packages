@@ -1,6 +1,6 @@
 {
-	"version": "2.04",
-	"url": "https://ftpmirror.gnu.org/gnu/grub/grub-2.04.tar.xz",
+	"version": "1.15",
+	"url": "https://ftpmirror.gnu.org/gnu/ed/ed-1.15.tar.lz",
 	"prepare": [
 	],
 	"build": [
@@ -14,7 +14,6 @@
 	],
 	"dependencies": {
 		"build": [
-			"flex",
 			"gcc",
 			"make"
 		],
