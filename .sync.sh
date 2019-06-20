@@ -3,6 +3,7 @@ set -e
 
 git checkout master
 git pull
+git push
 
 branches=( x86_64 aarch64 )
 for i in "${branches[@]}"
