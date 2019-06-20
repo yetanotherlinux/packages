@@ -1,6 +1,6 @@
 {
 	"version": "2.02",
-	"url": "https://github.com/yetanotherlinux/patched/raw/master/grub-2.02.tar.gz",
+	"url": "https://github.com/yetanotherlinux/patched/raw/master/grub-2.02.tar.xz",
 	"prepare": [
 	],
 	"build": [
