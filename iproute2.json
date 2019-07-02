@@ -1,6 +1,6 @@
 {
-	"version": "3.3.2",
-	"url": "https://ftpmirror.gnu.org/bison/bison-3.3.2.tar.xz",
+	"version": "5.1.0",
+	"url": "https://www.kernel.org/pub/linux/utils/net/iproute2/iproute2-5.1.0.tar.xz",
 	"prepare": [
 	],
 	"build": [
@@ -15,9 +15,7 @@
 	"dependencies": {
 		"build": [
 			"gcc",
-			"help2man",
-			"make",
-			"m4"
+			"make"
 		],
 		"startup": [
 		],

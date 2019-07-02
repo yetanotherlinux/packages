@@ -1,6 +1,6 @@
 {
-	"version": "3.3.2",
-	"url": "https://ftpmirror.gnu.org/bison/bison-3.3.2.tar.xz",
+	"version": "551",
+	"url": "http://www.greenwoodsoftware.com/less/less-551.tar.gz",
 	"prepare": [
 	],
 	"build": [
@@ -15,9 +15,7 @@
 	"dependencies": {
 		"build": [
 			"gcc",
-			"help2man",
-			"make",
-			"m4"
+			"make"
 		],
 		"startup": [
 		],

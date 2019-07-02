@@ -1,6 +1,6 @@
 {
 	"version": "3.1",
-	"url": "https://ftpmirror.gnu.org/gnu/grep/grep-3.1.tar.xz",
+	"url": "https://ftpmirror.gnu.org/grep/grep-3.1.tar.xz",
 	"prepare": [
 	],
 	"build": [

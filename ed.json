@@ -1,6 +1,6 @@
 {
 	"version": "1.15",
-	"url": "https://ftpmirror.gnu.org/gnu/ed/ed-1.15.tar.lz",
+	"url": "https://ftpmirror.gnu.org/ed/ed-1.15.tar.lz",
 	"prepare": [
 	],
 	"build": [

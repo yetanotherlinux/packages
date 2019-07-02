@@ -1,6 +1,6 @@
 {
 	"version": "8.31",
-	"url": "https://ftpmirror.gnu.org/gnu/coreutils/coreutils-8.31.tar.xz",
+	"url": "https://ftpmirror.gnu.org/coreutils/coreutils-8.31.tar.xz",
 	"prepare": [
 	],
 	"build": [

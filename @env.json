@@ -13,10 +13,13 @@
                 "build": [
                 ],
                 "startup": [
-                        "@core",
-			"gcc"
                 ],
                 "runtime": [
+			"bash",
+			"coreutils",
+			"iproute2",
+                        "less",
+			"nano"
                 ]
         }
 }

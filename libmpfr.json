@@ -1,6 +1,6 @@
 {
 	"version": "4.0.2",
-	"url": "https://ftpmirror.gnu.org/gnu/mpfr/mpfr-4.0.2.tar.xz",
+	"url": "https://ftpmirror.gnu.org/mpfr/mpfr-4.0.2.tar.xz",
 	"prepare": [
 	],
 	"build": [

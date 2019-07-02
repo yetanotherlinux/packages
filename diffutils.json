@@ -1,6 +1,6 @@
 {
 	"version": "3.6",
-	"url": "https://ftpmirror.gnu.org/gnu/diffutils/diffutils-3.6.tar.xz",
+	"url": "https://ftpmirror.gnu.org/diffutils/diffutils-3.6.tar.xz",
 	"prepare": [
 	],
 	"build": [

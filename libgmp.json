@@ -1,6 +1,6 @@
 {
 	"version": "6.1.2",
-	"url": "https://ftpmirror.gnu.org/gnu/gmp/gmp-6.1.2.tar.xz",
+	"url": "https://ftpmirror.gnu.org/gmp/gmp-6.1.2.tar.xz",
 	"prepare": [
 	],
 	"build": [

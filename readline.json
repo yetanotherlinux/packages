@@ -1,6 +1,6 @@
 {
 	"version": "7.0",
-	"url": "https://ftpmirror.gnu.org/gnu/readline/readline-7.0.tar.gz",
+	"url": "https://ftpmirror.gnu.org/readline/readline-7.0.tar.gz",
 	"prepare": [
 	],
 	"build": [

@@ -1,6 +1,6 @@
 {
 	"version": "2.29",
-	"url": "https://ftpmirror.gnu.org/gnu/glibc/glibc-2.29.tar.xz",
+	"url": "https://ftpmirror.gnu.org/glibc/glibc-2.29.tar.xz",
 	"prepare": [
 	],
 	"build": [

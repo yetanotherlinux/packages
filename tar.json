@@ -1,6 +1,6 @@
 {
 	"version": "1.29",
-	"url": "https://ftpmirror.gnu.org/gnu/tar/tar-1.29.tar.xz",
+	"url": "https://ftpmirror.gnu.org/tar/tar-1.29.tar.xz",
 	"prepare": [
 	],
 	"build": [

@@ -1,6 +1,6 @@
 {
 	"version": "2.32",
-	"url": "https://ftpmirror.gnu.org/gnu/binutils/binutils-2.32.tar.xz",
+	"url": "https://ftpmirror.gnu.org/binutils/binutils-2.32.tar.xz",
 	"prepare": [
 	],
 	"build": [

@@ -1,6 +1,6 @@
 {
 	"version": "1.47.5",
-	"url": "https://ftpmirror.gnu.org/gnu/help2man/help2man-1.47.5.tar.xz",
+	"url": "https://ftpmirror.gnu.org/help2man/help2man-1.47.5.tar.xz",
 	"prepare": [
 	],
 	"build": [

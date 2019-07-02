@@ -1,6 +1,6 @@
 {
 	"version": "9.1.0",
-	"url": "https://ftpmirror.gnu.org/gnu/gcc/gcc-9.1.0/gcc-9.1.0.tar.xz",
+	"url": "https://ftpmirror.gnu.org/gcc/gcc-9.1.0/gcc-9.1.0.tar.xz",
 	"prepare": [
 	],
 	"build": [

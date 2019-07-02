@@ -1,6 +1,6 @@
 {
 	"version": "4.2.0",
-	"url": "https://ftpmirror.gnu.org/gnu/gawk/gawk-4.2.0.tar.xz",
+	"url": "https://ftpmirror.gnu.org/gawk/gawk-4.2.0.tar.xz",
 	"prepare": [
 	],
 	"build": [

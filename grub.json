@@ -1,6 +1,6 @@
 {
 	"version": "2.04",
-	"url": "https://ftpmirror.gnu.org/gnu/grub/grub-2.04.tar.xz",
+	"url": "https://ftpmirror.gnu.org/grub/grub-2.04.tar.xz",
 	"prepare": [
 	],
 	"build": [
