@@ -18,6 +18,7 @@
 			"make"
 		],
 		"startup": [
+			"ncurses"
 		],
 		"runtime": [
 		]
