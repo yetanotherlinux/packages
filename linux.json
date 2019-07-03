@@ -13,7 +13,8 @@
 	"install": [
 		"make install",
 		"make headers_install",
-		"make modules_install"
+		"make modules_install",
+		"make dtbs"
 	],
 	"dependencies": {
 		"build": [
