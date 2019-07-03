@@ -1,0 +1,26 @@
+{
+	"version": "26",
+	"url": "https://www.kernel.org/pub/linux/utils/kernel/kmod/kmod-26.tar.xz",
+	"prepare": [
+	],
+	"build": [
+		"../src/configure --prefix=/usr",
+		"make"
+	],
+	"test": [
+	],
+	"install": [
+		"make install"
+	],
+	"dependencies": {
+		"build": [
+			"gcc",
+			"make"
+		],
+		"startup": [
+		],
+		"runtime": [
+		]
+	}
+}
+

@@ -21,6 +21,7 @@
 			"elfutils",
 			"flex",
 			"gcc",
+			"kmod",
 			"make"
 		],
 		"startup": [
