@@ -1,0 +1,35 @@
+{
+	"version": "242",
+	"url": "https://github.com/systemd/systemd/archive/v242.tar.gz",
+	"prepare": [
+	],
+	"build": [
+		"meson --prefix=/usr --localstatedir=/var ../src .",
+		"ninja"
+	],
+	"test": [
+	],
+	"install": [
+		"ninja install"
+	],
+	"dependencies": {
+		"build": [
+			"gcc",
+			"meson",
+			"pkg-config"
+		],
+		"startup": [
+			"acl",
+			"libcap",
+			"libgcrypt",
+			"openssl"
+		],
+		"runtime": [
+			"dbus",
+			"kmod",
+			"shadow",
+			"util-linux"
+		]
+	}
+}
+

@@ -1,0 +1,26 @@
+{
+	"version": "3.1",
+	"url": "https://ftpmirror.gnu.org/gnu/gperf/gperf-3.1.tar.gz",
+	"prepare": [
+	],
+	"build": [
+		"../src/configure --prefix=/usr",
+		"make"
+	],
+	"test": [
+	],
+	"install": [
+		"make install"
+	],
+	"dependencies": {
+		"build": [
+			"gcc",
+			"make"
+		],
+		"startup": [
+		],
+		"runtime": [
+		]
+	}
+}
+

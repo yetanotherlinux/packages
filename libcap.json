@@ -1,0 +1,26 @@
+{
+	"version": "2.27",
+	"url": "https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.27.tar.xz",
+	"prepare": [
+		"cp -a ../src/. ."
+	],
+	"build": [
+		"make"
+	],
+	"test": [
+	],
+	"install": [
+		"make prefix=/usr install"
+	],
+	"dependencies": {
+		"build": [
+			"gcc",
+			"make"
+		],
+		"startup": [
+		],
+		"runtime": [
+		]
+	}
+}
+

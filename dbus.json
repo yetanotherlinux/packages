@@ -1,0 +1,28 @@
+{
+	"version": "1.13.12",
+	"url": "https://dbus.freedesktop.org/releases/dbus/dbus-1.13.12.tar.xz",
+	"prepare": [
+	],
+	"build": [
+		"../src/configure --prefix=/usr --localstatedir=/var",
+		"make"
+	],
+	"test": [
+	],
+	"install": [
+		"make install"
+	],
+	"dependencies": {
+		"build": [
+			"gcc",
+			"make",
+			"pkg-config"
+		],
+		"startup": [
+			"libexpat"
+		],
+		"runtime": [
+		]
+	}
+}
+

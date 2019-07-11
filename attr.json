@@ -1,0 +1,27 @@
+{
+	"version": "2.4.48",
+	"url": "https://ftp.acc.umu.se/mirror/gnu.org/savannah/attr/attr-2.4.48.tar.gz",
+	"prepare": [
+		"cp -a ../src/. ."
+	],
+	"build": [
+		"./configure --prefix=/usr",
+		"make"
+	],
+	"test": [
+	],
+	"install": [
+		"make install"
+	],
+	"dependencies": {
+		"build": [
+			"gcc",
+			"make"
+		],
+		"startup": [
+		],
+		"runtime": [
+		]
+	}
+}
+

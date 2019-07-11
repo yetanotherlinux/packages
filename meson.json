@@ -1,0 +1,27 @@
+{
+	"version": "0.51.1",
+	"url": "https://github.com/mesonbuild/meson/archive/0.51.1.tar.gz",
+	"prepare": [
+		"cp -a ../src/. ."
+	],
+	"build": [
+	],
+	"test": [
+	],
+	"install": [
+		"python3 setup.py install"
+	],
+	"dependencies": {
+		"build": [
+			"python"
+		],
+		"startup": [
+		],
+		"runtime": [
+			"gperf",
+			"libcap",
+			"ninja"
+		]
+	}
+}
+

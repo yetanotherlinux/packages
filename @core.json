@@ -14,7 +14,9 @@
 		],
 		"startup": [
 			"glibc",
-			"linux"
+			"grub",
+			"linux",
+			"systemd"
 		],
 		"runtime": [
 			"pkg"

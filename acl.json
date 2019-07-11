@@ -1,0 +1,28 @@
+{
+	"version": "2.2.53",
+	"url": "https://download.savannah.nongnu.org/releases/acl/acl-2.2.53.tar.gz",
+	"prepare": [
+		"cp -a ../src/. ."
+	],
+	"build": [
+		"./configure --prefix=/usr",
+		"make"
+	],
+	"test": [
+	],
+	"install": [
+		"make install"
+	],
+	"dependencies": {
+		"build": [
+			"gcc",
+			"make"
+		],
+		"startup": [
+			"attr"
+		],
+		"runtime": [
+		]
+	}
+}
+

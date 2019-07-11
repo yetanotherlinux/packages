@@ -1,0 +1,26 @@
+{
+	"version": "8.43",
+	"url": "https://ftp.pcre.org/pub/pcre/pcre-8.43.tar.gz",
+	"prepare": [
+	],
+	"build": [
+		"../src/configure --prefix=/usr --enable-unicode-properties --enable-utf8",
+		"make"
+	],
+	"test": [
+	],
+	"install": [
+		"make install"
+	],
+	"dependencies": {
+		"build": [
+			"gcc",
+			"make"
+		],
+		"startup": [
+		],
+		"runtime": [
+		]
+	}
+}
+

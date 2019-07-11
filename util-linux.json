@@ -1,0 +1,26 @@
+{
+	"version": "2.34",
+	"url": "https://www.kernel.org/pub/linux/utils/util-linux/v2.34/util-linux-2.34.tar.xz",
+	"prepare": [
+	],
+	"build": [
+		"../src/configure --prefix=/usr",
+		"make"
+	],
+	"test": [
+	],
+	"install": [
+		"make install"
+	],
+	"dependencies": {
+		"build": [
+			"gcc",
+			"make"
+		],
+		"startup": [
+		],
+		"runtime": [
+		]
+	}
+}
+

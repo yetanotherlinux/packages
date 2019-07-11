@@ -1,0 +1,27 @@
+{
+	"version": "1.8.4",
+	"url": "https://www.gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.8.4.tar.gz",
+	"prepare": [
+	],
+	"build": [
+		"../src/configure --prefix=/usr",
+		"make"
+	],
+	"test": [
+	],
+	"install": [
+		"make install"
+	],
+	"dependencies": {
+		"build": [
+			"gcc",
+			"make"
+		],
+		"startup": [
+			"libgpg-error"
+		],
+		"runtime": [
+		]
+	}
+}
+

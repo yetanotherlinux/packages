@@ -1,6 +1,6 @@
 {
-	"version": "2.04",
-	"url": "https://ftpmirror.gnu.org/grub/grub-2.04.tar.xz",
+	"version": "1.36",
+	"url": "https://www.gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.36.tar.gz",
 	"prepare": [
 	],
 	"build": [
@@ -14,7 +14,6 @@
 	],
 	"dependencies": {
 		"build": [
-			"flex",
 			"gcc",
 			"make"
 		],

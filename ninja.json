@@ -1,0 +1,25 @@
+{
+	"version": "1.9.0",
+	"url": "https://github.com/ninja-build/ninja/archive/v1.9.0.tar.gz",
+	"prepare": [
+	],
+	"build": [
+		"python3 ../src/configure.py --bootstrap"
+	],
+	"test": [
+	],
+	"install": [
+		"install -m 755 ninja /usr/bin"
+	],
+	"dependencies": {
+		"build": [
+			"gcc",
+			"python"
+		],
+		"startup": [
+		],
+		"runtime": [
+		]
+	}
+}
+
