@@ -10,7 +10,13 @@
 	"test": [
 	],
 	"install": [
-		"make install"
+		"make install",
+		"ln -sfv ../bin/kmod /usr/sbin/depmod",
+		"ln -sfv ../bin/kmod /usr/sbin/insmod",
+		"ln -sfv ../bin/kmod /usr/sbin/lsmod",
+		"ln -sfv ../bin/kmod /usr/sbin/modinfo",
+		"ln -sfv ../bin/kmod /usr/sbin/modprobe",
+		"ln -sfv ../bin/kmod /usr/sbin/rmmod"
 	],
 	"dependencies": {
 		"build": [
